@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AYI — Catálogo Oscuro</title>
+  <style>
+    body{margin:0;font-family:Inter,system-ui;background:#0a0a0a;color:#e8e8e8}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1150px;margin:auto;padding:30px 20px}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:40px}
+    .brand{font-size:30px;font-weight:700}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px}
+    .card{background:#111;border-radius:16px;overflow:hidden;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,0.4);transition:.17s}
+    .card:hover{transform:translateY(-4px);box-shadow:0 12px 26px rgba(0,0,0,0.55)}
+    .thumb{width:100%;height:360px;object-fit:cover;background:#222}
+    .meta{padding:14px}
+    .meta h2{margin:0;font-size:18px;color:#fff}
+    footer{text-align:center;color:#777;margin-top:50px;font-size:14px}
+  </style>
+</head>
+<body>
+
+  <!-- PAGINA PRINCIPAL -->
+  <div class="container">
+    <header>
+      <div class="brand">AYI — Conceptos</div>
+    </header>
+
+    <section class="grid">
+      <a class="card" href="file:///E:/AYIVORA/AYIVORA_M001.html">
+        <img class="thumb" src="file:///E:/sda/1.png" />
+        <div class="meta"><h2>CHORME BASIC - Model 001 - Black & White</h2></div>
+      </a>
+
+      <a class="card" href="file:///E:/AYIVORA/AYIVORA_M002.html">
+        <img class="thumb" src="file:///E:/sda/5.png" />
+        <div class="meta"><h2>NY - Model 002 - Black & White</h2></div>
+      </a>
+    </section>
+
+    <footer>© 2025 AYI — Dark Catalog</footer>
+  </div>
+
+</body>
+</html>
